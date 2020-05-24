@@ -4,8 +4,6 @@ class MP3Importer
     @path = path
   end
   
-  def path
-  end
   def files
     files = []
     Dir.new(self.path).each do |file|
